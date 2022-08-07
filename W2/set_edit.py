@@ -15,3 +15,8 @@ a_set.add(True)
 a_set.add(None)
 print(a_set) # {'python', True, None, 'flask', 'django'}
 
+a_tuple = ('a','b','c')
+a_set.update((a_tuple))
+print('print:',a_set)
+a_set.update('RICKEY')
+print(a_set)
